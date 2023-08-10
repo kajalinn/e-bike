@@ -1,0 +1,61 @@
+/*@font-face {*/
+/*    font-family: "Fontatica";*/
+/*    src: url('Fontatica4F.woff2') format('woff2')*/
+/*}*/
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 80vh;
+}
+
+/*.wall-img{*/
+/*    margin-left: 106px;*/
+/*}*/
+
+.hero-text p{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.hero-text{
+    font-size: 36px;
+    /*font-weight: normal;    */
+    text-align: center;
+    margin: auto 0;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+}
+
+.hiddenX{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

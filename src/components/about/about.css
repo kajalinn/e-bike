@@ -1,0 +1,44 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.about-wrapper {
+    width: 100%;
+    background-color: #FBC646;
+}
+
+.about-container {
+    width: 1440px;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.about-content{
+    text-align-last: center;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+
+}
+
+.about-things ul li h6{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.about-things ul li{
+    display: flex;
+    list-style-type: none;
+    /* margin-bottom: 12px; */
+}
+
+.about-things ul li span{
+    margin-right: 28px;
+    display: flex;
+    align-items: center;
+}

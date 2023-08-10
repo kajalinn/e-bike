@@ -1,0 +1,115 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-wrapper {
+    width: 100%;
+    background-color: #FFEEAC;
+}
+
+.contact-container {
+    width: 1440px;
+    height: 35vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contact-container ul{
+    list-style-type: none;
+}
+
+.contact-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-hours{
+    display: flow-root;
+    align-self: center
+}
+
+
+.social-links{
+    height: 60px;
+    margin-top: 60px;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: -32px;
+}
+
+.social-links ul li{
+    margin: 12px;
+}
+
+.social-links ul li:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.open-hours-title{
+    margin: -38px 0;
+}
+
+.open-hours-schedule{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+    /* .open-hours-schedule ul li{
+        margin: 32px;
+    } */
+
+.open-hours-schedule ul li h2{
+    font-size: 40px;
+}
+
+.open-hours-schedule ul li h6{
+    font-size: 20px;
+}
+
+.schedule-working-days{
+    display: flex;
+    max-height: 60px;
+}
+
+.schedule-freeday-h6{
+    margin-right: 32px;
+}
+.schedule-workday-h6{
+    margin-right: 32px;
+}
+
+/*-------*/
+
+.contact-points ul li{
+    margin: -16px 0;
+}
+
+.contact-points ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.contact-points ul li h6{
+    font-size: 20px;
+}
+
+.cnt-icon{
+    margin-right: 20px;
+}
+
+
+.contact-details{
+    padding-right: 50px;
+}

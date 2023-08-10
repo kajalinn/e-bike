@@ -1,0 +1,74 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.description-wrapper {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.description-container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-basis: content;
+}
+.description-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-title{
+    font-size: 36px;
+}
+.description-content ul{
+    /* text-align: end; */
+    display: initial;
+    width: 1100px;
+    list-style-type: none;
+    /* padding-left: 250px; */
+}
+
+
+.description-badge{
+    width: 76px;
+    height: 76px;
+    border-radius: 45px;
+    color: black;
+    background-color: #FBC646;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+    box-shadow: 2px 2px 6px rgba(0,0,0,.5);
+}
+
+.description-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    /*text-shadow: 2px 2px 4px #000000;*/
+}
+
+.description-badge p{
+    margin: 0;
+}
+
+
+.description-text{
+    /*width: 300px;*/
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.badge-mark{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.description-step{
+    display: contents;
+}

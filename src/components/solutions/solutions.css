@@ -1,0 +1,152 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.solution-wrapper {
+    width: 100%;
+}
+
+.solution-container {
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+}
+.solution-content{
+    text-align: center;
+}
+
+.solution-title{
+    font-size: 36px;
+    margin: 0 24px;
+}
+
+.solution-panel{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.solution-button{
+    width: 48px;
+    height: 48px;
+    background-color: #FBC646;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border: none;
+    border-radius: 90px;
+}
+
+.solution-button:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.solution-variant{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    width: 80%;
+    /*border: 1px solid black;*/
+}
+
+.solution-title{
+    font-size: 36px;
+    min-height: 8vh;
+}
+
+
+.bicycle-info{
+    border-radius: 16px;
+    width: 50%;
+    /*border: 1px solid black;*/
+    background-color: #FBC646;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.solution-includes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.solution-parameters{
+    min-height: 16vh;
+    padding-right: 32px;
+}
+
+.solution-parameters ul{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align-last: start;
+}
+.solution-parameters ul li{
+    padding-bottom: 16px;
+}
+
+.solution-parameters ul li span{
+    margin-right: 1rem;
+}
+
+.solution-advantages{
+    min-height: 13vh;
+}
+
+.solution-advantages-title{
+    font-size: 24px;
+}
+
+.solution-advantages ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.solution-price-variants ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.solution-price-title{
+    font-size: 16px;
+}
+
+.solution-variant ul li{
+    list-style-type: none;
+}
+
+.bicycle-include{
+    /*border: 1px solid black;*/
+    border-radius: 16px;
+    min-height: 8vh;
+    display: inline;
+    text-align-last: start;
+}
+
+.bicycle-include ul{
+    padding: 0 16px;
+}
+
+.bicycle-include b{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bicycle-additions{
+    /*border: 1px solid black;*/
+    border-radius: 16px;
+    min-height: 10vh;
+    /*margin-bottom: 2rem;*/
+}
+.bicycle-additions ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+}
+.solution-advantages-items ul{
+    padding-top: 16px;
+}
